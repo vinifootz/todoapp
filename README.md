@@ -2,14 +2,23 @@
 Simple todo app, to use as a portfolio
 
 
-Enter the todoApp directory (cd/TodoApp)
+- Enter the todoApp directory (cd/TodoApp)
 
-cd env
+- Create a virtual enviroment, and Activate it.
+    virtualenv env
+  
+    cd env
 
-cd Scripts
+    cd Scripts
 
-Scripts\Activate
+    Scripts\Activate
+    
+- Install django
+    pip install django
+    
+- Get back to the TodoApp Directory and run
+   cd ..
 
-cd ..
+- Run the django server with the command:
 
-python manage.py runserver
+  python manage.py runserver
